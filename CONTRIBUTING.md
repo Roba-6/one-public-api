@@ -135,7 +135,7 @@ flowchart TD
 
 `main` ブランチへの直接コミットは禁止します．
 
-GitHub Rulesets により，原則として Pull Request を経由した変更のみを許可します．
+GitHub Rulesets により，Pull Request を経由した変更のみを許可し，マージ前に承認レビューを必須とします．
 
 `main` ブランチへの force push と，`main` ブランチ自体の削除も行いません．
 
@@ -275,6 +275,8 @@ Pull Request には最低限，以下を記載します．
 独立して検討・実装できる技術選定や機能追加は，原則として別 Issue，別 Pull Request に分けます．
 
 Pull Request を作成してレビュー可能な状態になった時点で，対応する Issue の Status を `In review` とします．
+
+Pull Request は，`main` へマージする前に必ずレビューを実施します．レビューを経ていない Pull Request はマージしません．
 
 レビュー中に修正が必要となった場合も，Pull Request がレビュー工程にある間は原則として `In review` のまま管理します．
 
