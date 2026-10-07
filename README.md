@@ -12,7 +12,9 @@ One Public API（OPA）は，公開 API を統一的に扱うための API プ�
 | --- | --- |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Issue，branch，commit，Pull Request，review，GitHub Projects などの開発運用ルール |
 | [AGENTS.md](AGENTS.md) | ChatGPT，Codex，その他の AI エージェントが作業する際の入口と参照ルール |
+| [docs/development-policy.md](docs/development-policy.md) | 人間，ChatGPT，Codex の役割分担と，重要な技術判断の記録方針 |
 | [docs/CODING_STANDARDS.md](docs/CODING_STANDARDS.md) | Python / FastAPI を中心としたコーディング規約と実装方針 |
+| [docs/testing-ci-cd.md](docs/testing-ci-cd.md) | Test，品質チェック，CI，CD の基本方針 |
 
 ## ライセンス
 
