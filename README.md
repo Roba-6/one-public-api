@@ -1,0 +1,21 @@
+# One Public API
+
+One Public API（OPA）は，公開 API を統一的に扱うための API プロジェクトです．
+
+現在は初期準備・基盤構築を進めています．詳細な仕様や設計は，今後 GitHub Issue と正式なドキュメントを通して決定していきます．
+
+## ドキュメント
+
+現在の主要なドキュメントは以下です．
+
+| ドキュメント | 内容 |
+| --- | --- |
+| [開発への参加と運用ルール](CONTRIBUTING.md) | Issue，branch，commit，Pull Request，review，GitHub Projects などの開発運用ルール |
+| [AGENTS.md](AGENTS.md) | ChatGPT，Codex，その他の AI エージェントが作業する際の入口と参照ルール |
+| [開発方針と AI 活用方針](docs/development-policy.md) | 人間，ChatGPT，Codex の役割分担と，重要な技術判断の記録方針 |
+| [One Public API コーディング規約](docs/CODING_STANDARDS.md) | Python / FastAPI を中心としたコーディング規約と実装方針 |
+| [テストと CI/CD](docs/testing-ci-cd.md) | Test，品質チェック，CI，CD の基本方針 |
+
+## ライセンス
+
+このプロジェクトは MIT License のもとで公開します．
