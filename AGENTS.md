@@ -9,17 +9,17 @@
 作業を開始する前に，存在する範囲で以下を確認してください．
 
 1．[開発への参加と運用ルール](CONTRIBUTING.md)  
-2．[コーディング規約](docs/CODING_STANDARDS.md)  
-3．対象となる GitHub Issue  
-4．関連する Pull Request が存在する場合は，その本文，コメント，レビュー内容  
-5．対象の実装や設計に関連する既存ドキュメント
+2．[開発方針と AI 活用方針](docs/development-policy.md)  
+3．[コーディング規約](docs/CODING_STANDARDS.md)  
+4．[テストと CI/CD](docs/testing-ci-cd.md)  
+5．対象となる GitHub Issue  
+6．関連する Pull Request が存在する場合は，その本文，コメント，レビュー内容  
+7．対象の実装や設計に関連する既存ドキュメント
 
 以下の文書は今後追加予定です．存在するようになった後は，作業内容に応じて確認対象へ加えます．
 
-- 開発方針と AI 活用方針
 - 技術スタック
 - 開発環境とリポジトリ構成
-- テストと CI/CD
 - 用語集
 - アーキテクチャに関する文書
 - ADR
@@ -70,10 +70,8 @@ ChatGPT 等との会話だけに，重要な project 判断を残さないよう
 
 以下の領域については，今後それぞれ正式な文書を追加する予定です．
 
-- AI 活用と project 方針：開発方針と AI 活用方針
 - 採用技術：技術スタック
 - 開発環境と repository 構成：開発環境とリポジトリ構成
-- Test と CI/CD：テストと CI/CD
 - project 共通用語：用語集
 - architecture：アーキテクチャに関する文書
 - 重要な設計判断：ADR
@@ -87,7 +85,9 @@ ChatGPT 等との会話だけに，重要な project 判断を残さないよう
 現在存在する正本：
 
 - 開発運用：[開発への参加と運用ルール](CONTRIBUTING.md)
+- AI 活用と技術判断：[開発方針と AI 活用方針](docs/development-policy.md)
 - 実装規約：[コーディング規約](docs/CODING_STANDARDS.md)
+- Test と CI/CD：[テストと CI/CD](docs/testing-ci-cd.md)
 
 `AGENTS.md` は，AI エージェントの入口，参照先，GitHub アカウントの使い分け，または作業開始時の確認方法そのものが変わる場合に更新します．
 
