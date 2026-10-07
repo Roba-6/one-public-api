@@ -563,18 +563,9 @@ Codex，ChatGPT 等は code 変更前に，存在する範囲で以下を確認�
 
 ## 64．完了条件
 
-code 変更完了時は，変更内容に応じて lint，format，type check，Test を実行します．採用 tool が確定した後は，具体的な command をこの section に定義します．
+code 変更完了時の品質チェックと CI に関する正式な方針は，[テストと CI/CD](testing-ci-cd.md) に従います．
 
-想定例：
-
-```bash
-ruff check .
-ruff format --check .
-mypy .
-pytest
-```
-
-実際に採用していない tool を規約上の必須 command としません．変更内容によって不要な check は省略できます．実行していない check を‘成功’と報告しません．
+実行していない check を‘成功’と報告しません．
 
 ## 65．最終原則
 
