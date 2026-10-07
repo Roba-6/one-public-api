@@ -516,44 +516,17 @@ FastAPI が生成する OpenAPI schema も public API の一部として扱い�
 
 public endpoint を追加または変更した場合は，必要に応じて API documentation も更新します．code と documentation の内容が矛盾しない状態を維持します．
 
-## 59．Branch
+## 59．開発運用
 
-Issue の実装は，原則として Issue ごとの作業 branch で行います．`main` へ直接実装 commit を行いません．
+branch，commit，Pull Request，review，merge 等の開発運用は，[開発への参加と運用ルール](../CONTRIBUTING.md) を正本とします．
 
-基本方針：
+本規約では，開発運用ルールを重複して定義しません．
 
-- 原則として `1 Issue = 1 branch = 1 Pull Request`
-- 作業 branch は対象 Issue が `Ready` になってから作成する
-- 作業開始時の最新 `main` を基準にする
-- 将来の Issue 用 branch をまとめて先行作成しない
-- 1つの branch へ無関係な Issue の変更を混在させない
-- Issue を分割・統合した場合は，必要に応じて branch / Pull Request の単位も見直す
+## 60．AI コーディングエージェント
 
-branch 名は `CONTRIBUTING.md` の規則に従います．
+AI コーディングエージェントの作業開始時の確認事項，GitHub アカウントの使い分け，参照すべき正本等は，[AGENTS.md](../AGENTS.md) に従います．
 
-## 60．Pull Request
-
-Pull Request の詳細な運用は `CONTRIBUTING.md` を正本とします．code の観点では，1つの Pull Request を1つの主目的に集中させます．
-
-## 61．Commit
-
-Commit の運用と message 形式は `CONTRIBUTING.md` に従います．Commit は意味のある単位に分けます．対応する Issue がある場合は，Commit message の末尾に Issue 番号を付けます．
-
-## 62．AI コーディングエージェントへの追加ルール
-
-Codex，ChatGPT 等は code 変更前に，存在する範囲で以下を確認します．
-
-1．`AGENTS.md`  
-2．`CONTRIBUTING.md`  
-3．`docs/CODING_STANDARDS.md`  
-4．`README.md`  
-5．architecture に関する文書  
-6．対象 Issue  
-7．対象機能に関連する文書
-
-対象 Issue が GitHub Projects 上で `Ready` になっていない場合は，実装指示を受けても作業を開始しません．
-
-規約と既存 code が矛盾する場合は，勝手に大規模変更を行いません．まず矛盾を報告し，必要に応じて別 Issue として扱います．
+本規約では，AI エージェント向けの運用ルールを重複して定義しません．
 
 ## 63．日本語の文書・コメント表記
 
